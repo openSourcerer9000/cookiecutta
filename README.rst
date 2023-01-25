@@ -2,12 +2,12 @@
 Cookiecutter PyPackage
 ======================
 
-.. image:: https://pyup.io/repos/github/audreyfeldroy/cookiecutter-pypackage/shield.svg
-    :target: https://pyup.io/repos/github/audreyfeldroy/cookiecutter-pypackage/
+.. image:: https://pyup.io/repos/github/openSourcerer9000/cookiecutta/shield.svg
+    :target: https://pyup.io/repos/github/openSourcerer9000/cookiecutta/
     :alt: Updates
 
-.. image:: https://travis-ci.org/audreyfeldroy/cookiecutter-pypackage.svg?branch=master
-    :target: https://travis-ci.org/github/audreyfeldroy/cookiecutter-pypackage
+.. image:: https://travis-ci.org/openSourcerer9000/cookiecutta.svg?branch=master
+    :target: https://travis-ci.org/github/openSourcerer9000/cookiecutta
     :alt: Build Status
 
 .. image:: https://readthedocs.org/projects/cookiecutter-pypackage/badge/?version=latest
@@ -48,8 +48,8 @@ Build Status
 
 Linux:
 
-.. image:: https://img.shields.io/travis/audreyfeldroy/cookiecutter-pypackage.svg
-    :target: https://travis-ci.org/audreyfeldroy/cookiecutter-pypackage
+.. image:: https://img.shields.io/travis/openSourcerer9000/cookiecutta.svg
+    :target: https://travis-ci.org/openSourcerer9000/cookiecutta
     :alt: Linux build status on Travis CI
 
 Windows:
@@ -68,7 +68,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyfeldroy/cookiecutter-pypackage.git
+    cookiecutter https://github.com/openSourcerer9000/cookiecutta.git
 
 Then:
 
