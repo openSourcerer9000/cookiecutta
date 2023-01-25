@@ -24,6 +24,7 @@ Conda Build
 -----------
 
 Conda build boilerplate is a bit tricky, so a bit of research, trial and error went into getting the conda-recipe folder set up. To build:
+
 * specify python versions in both conda-recipe/conda_build_config.yaml and setup.py. 
 
 * specify required dependencies in conda-recipe/meta.yaml requirements.run. 
