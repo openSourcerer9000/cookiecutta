@@ -44,8 +44,8 @@ Linux:
 
 Windows:
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/audreyr/cookiecutter-pypackage?branch=master&svg=true
-    :target: https://ci.appveyor.com/project/audreyr/cookiecutter-pypackage/branch/master
+.. image:: https://ci.appveyor.com/api/projects/status/github/openSourcerer9000/cookiecutta?branch=master&svg=true
+    :target: https://ci.appveyor.com/project/openSourcerer9000/cookiecutta/branch/master
     :alt: Windows build status on Appveyor
 
 Quickstart
@@ -155,5 +155,5 @@ make my own packaging experience better.
 .. _`zillionare/cookiecutter-pypackage`: https://zillionare.github.io/cookiecutter-pypackage/
 .. _`waynerv/cookiecutter-pypackage`: https://waynerv.github.io/cookiecutter-pypackage/
 .. _github comparison view: https://github.com/tony/cookiecutter-pypackage-pythonic/compare/audreyr:master...master
-.. _`network`: https://github.com/audreyr/cookiecutter-pypackage/network
-.. _`family tree`: https://github.com/audreyr/cookiecutter-pypackage/network/members
+.. _`network`: https://github.com/openSourcerer9000/cookiecutta/network
+.. _`family tree`: https://github.com/openSourcerer9000/cookiecutta/network/members

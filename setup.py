@@ -9,7 +9,7 @@ setup(
     author='Audrey Roy Greenfeld',
     license='BSD',
     author_email='aroy@alum.mit.edu',
-    url='https://github.com/audreyr/cookiecutter-pypackage',
+    url='https://github.com/openSourcerer9000/cookiecutta',
     keywords=['cookiecutter', 'template', 'package', ],
     python_requires='>=3.6',
     classifiers=[
