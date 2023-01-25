@@ -11,9 +11,18 @@ requirements:
     - python
     - setuptools
   build:
+    {% raw -%}
     - python {{ python }}
+    {%- endraw %}
   run:
     - python
+    {# raw is for ignoring templating with cookiecutter, leaving it for use with conda-build -#}
+    {% raw -%}
+    # dependencies are defined in setup.py
+    {% for dep in data['install_requires'] %}
+    - {{ dep.lower() }}
+    {% endfor %}
+    {%- endraw %}
     # - dependencyPackage1
     # - dependencyPackage2
     # ...
