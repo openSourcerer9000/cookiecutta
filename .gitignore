@@ -1,3 +1,11 @@
+# Common binaries
+.nc
+.hdf
+.tif
+.shp
+
+#######################################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -99,4 +107,3 @@ python_boilerplate/
 cookiecutter-pypackage-env/
 
 # IDE settings
-.vscode/

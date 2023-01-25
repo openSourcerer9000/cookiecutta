@@ -1,0 +1,30 @@
+package:
+  name: "{{cookiecutter.project_slug}}"
+  version: "{{cookiecutter.version}}"
+
+source:
+  # Relative path to the parent directory.
+  path: ..
+
+requirements:
+  host:
+    - python
+    - setuptools
+  build:
+    - python {{ python }}
+  run:
+    - python
+    # - dependencyPackage1
+    # - dependencyPackage2
+    # ...
+
+about:
+  home: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+  license: {{ cookiecutter.open_source_license }}
+  license_familY: {{ cookiecutter.open_source_license }}
+  license_file: LICENSE
+  summary: "{{ cookiecutter.project_short_description }}"
+
+extra:
+  recipe-maintainers:
+    - {{ cookiecutter.github_username }}
