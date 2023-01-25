@@ -14,22 +14,32 @@ Cookiecutter PyPackage
     :target: https://cookiecutter-pypackage.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-Cookiecutter_ template for a Python package.
+Minimal Cookiecutter_ template for a Python package. Highly opinionated to use conda and pytest, without pip. Basically forked the Audrey Feldroy template and removed a lot of stuff. 
 
-* GitHub repo: https://github.com/audreyfeldroy/cookiecutter-pypackage/
+* GitHub repo: https://github.com//openSourcerer9000/cookiecutta/
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
 
+Conda Build
+-----------
+
+Conda build boilerplate is a bit tricky, so a bit of research, trial and error went into getting the conda-recipe folder set up. To build:
+
+* specify python versions in both conda-recipe/conda_build_config.yaml and setup.py. 
+
+* specify required dependencies in conda-recipe/meta.yaml requirements.run. 
+
+* $ cd conda-recipe
+
+* $ conda build
+
+* etc
+
 Features
 --------
-
-* Testing setup with ``unittest`` and ``python setup.py test`` or ``pytest``
-* Travis-CI_: Ready for Travis Continuous Integration testing
-* Tox_ testing: Setup to easily test for Python 3.6, 3.7, 3.8
+* Conda setup in the conda-recipe folder
+* pytest
 * Sphinx_ docs: Documentation ready for generation with, for example, `Read the Docs`_
-* bump2version_: Pre-configured version bumping with a single command
-* Auto-release to PyPI_ when you push a new tag to master (optional)
-* Command line interface using Click (optional)
 
 .. _Cookiecutter: https://github.com/cookiecutter/cookiecutter
 
