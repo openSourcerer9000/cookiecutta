@@ -2,4 +2,4 @@
 
 import pytest
 
-from {{cookiecutter.project_slug}}.{{cookiecutter.project_slug}} import *
+from {{cookiecutter.project_slug}} import *
